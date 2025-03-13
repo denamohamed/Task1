@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.3.2-dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-6.5.1-web/css/all.min.css"
+    />
+    <link rel="stylesheet" href="Task.css" />
+    <title>Task</title>
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-light fixed-top bg-white p-3 container"
+      >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home /</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Category /</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Subcategory /</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Subcategory /</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black semi-bold" href="#">Product</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="container mt-5 pt-4">
+      <section class="row">
+        <div class="col-md-6">
+          <section class="sec-one">
+            <div
+              id="carouselExampleIndicators"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-indicators">
+                <div
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></div>
+                <div
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></div>
+                <div
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></div>
+                <div
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="3"
+                  aria-label="Slide 4"
+                ></div>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="chair.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="chair.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="chair.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="chair.jpg" class="d-block w-100" alt="..." />
+                </div>
+              </div>
+              <a
+                class="carousel-control-prev"
+                href="#carouselExampleIndicators"
+                role="button"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </a>
+              <a
+                class="carousel-control-next"
+                href="#carouselExampleIndicators"
+                role="button"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </a>
+            </div>
+          </section>
+          <section class="sec-two pt-5 pb-3">
+            <h2 class="text-black bold">Product Name</h2>
+
+            <span class="text-black semi-bold">Overview</span>
+            <p class="text mt-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ea,
+              ab dolores maxime architecto placeat id sapiente magni praesentium
+              doloribus accusantium, ex voluptatum, ipsa amet. Soluta eligendi
+              pariatur error fuga molestiae ut facilis, sapiente velit voluptas
+              sed praesentium cum quas possimus inventore voluptatum aliquid?
+              Cum accusantium sunt corporis eos eveniet sequi harum, possimus
+              alias optio iste vitae porro magni tempora impedit perferendis id,
+              ipsam doloribus sapiente consequatur, rerum amet officia.
+            </p>
+          </section>
+        </div>
+        <div class="col-md-6 border p-3 rounded">
+          <section class="sec-three ">
+            <div
+              class="div-one d-flex align-items-center justify-content-between gap-5"
+            >
+              <img src="logo.jpg" class="logo" />
+
+              <div
+                class="d-flex align-items-center justify-content-between gap-3"
+              >
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-share-from-square"></i>
+              </div>
+            </div>
+
+            <h3 class="text-black bold">Brand Name</h3>
+
+            <p>Designer <span class="text-black semi-bold">Deanna Comellini</span></p>
+            <p>Collection <span class="text-black semi-bold">La Materie Sottile</span></p>
+
+            <div class="div-two d-flex align-items-center gap-4 my-3">
+              <div class="d-flex gap-1 align-items-center">
+                <span class="text-black">(4.5)</span>
+                <i class="fa-solid fa-star text-warning"></i>
+              </div>
+              <span>(1.4k)</span>
+            </div>
+
+            <div class="div-three d-flex gap-3 my-4">
+              <span class="">Price: </span>
+              <span class="text-black semi-bold">$ 12358</span>
+
+              <span class="line-through">$ 590,693</span>
+
+              <div class="green-button">15% off</div>
+            </div>
+
+            <div class="div-four bg-light rounded py-3 px-4">
+              <div
+                class="d-flex justify-content-between align-items-center rounded bg-white py-2 px-4 mt-3"
+              >
+                <i class="fa-solid fa-trash-can"></i>
+                <span>1</span>
+                <i class="fa-solid fa-plus"></i>
+              </div>
+
+              <button class="btn px-4 py-2 rounded-lg my-3">
+                proceed to checkout
+              </button>
+
+              <ul>
+                <li class="text-success">
+                  <i class="fa-solid fa-check"></i>Available ,ship in 3/4 weeks.
+                </li>
+
+                <li class="text-success">
+                  <i class="fa-solid fa-check"></i>Shipping to Sudia Arabia :
+                  Free
+                </li>
+
+                <li>
+                  <i class="fa-solid fa-check"></i>Return allowed withen 14
+                  dayes of delivery
+                </li>
+
+                <li>
+                  <i class="fa-solid fa-check"></i>Upon request : inside
+                  delivery and assembly
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section class="semi-bold text-black sec-four pt-4">
+            <div class="bg-light my-3 py-3 rounded-pill px-5 d-flex align-items-center justify-content-between">
+              <i class="fa-regular fa-circle-question"></i>
+              <span>Request a quotation</span>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+
+            <div
+              class="bg-light my-3 py-3 rounded-pill px-5 d-flex align-items-center justify-content-between"
+            >
+              <i class="fa-brands fa-whatsapp"></i>
+              <span>Order through whatsapp</span>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+
+            <div
+              class="bg-light my-3 py-3 rounded-pill px-5 d-flex align-items-center justify-content-between"
+            >
+              <i class="fa-regular fa-circle-question"></i>
+              <span>Call us at +986423523</span>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+          </section>
+        </div>
+      </section>
+    </main>
+    <script src="./bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
