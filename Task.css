@@ -35,7 +35,7 @@ body {
 /* -------- section one --------*/
 
 section.sec-one {
-  height: 550px;
+  height: 500px;
 }
 
 /* -------- slider --------*/
@@ -60,7 +60,7 @@ section.sec-one div.carousel div.carousel-indicators div {
 }
 
 section.sec-one div.carousel div.carousel-inner img {
-  height: 450px;
+  height: 400px;
   object-fit: cover;
   position: relative;
 }
