@@ -1,0 +1,172 @@
+
+/* -------- Media Queries --------*/
+
+@media (min-width: 576px) { 
+ }
+
+@media (min-width: 768px) { 
+  /* -------- section one --------*/
+
+section.sec-one {
+  height: 400px;
+}
+
+/* -------- slider --------*/
+
+section.sec-one div.carousel div.carousel-indicators {
+  height: 75px;
+}
+
+section.sec-one div.carousel div.carousel-inner img {
+  height: 325px;
+}
+
+/* -------- section three --------*/
+
+img.logo {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+
+section.sec-two h2{
+  font-size: 25px;
+}
+
+section.sec-two p,
+section.sec-three p{
+  font-size: 14px;
+}
+
+section.sec-three h3{
+  font-size: 22px;
+}
+section.sec-three .div-four
+{
+  padding: 5px !important;
+  margin: 7px !important;
+}
+
+section.sec-three .div-four ul{
+  font-size: 14px;
+}
+
+
+section.sec-four div{
+  font-size: 13px;
+}
+ }
+
+@media (min-width: 992px) { 
+  /* -------- section one --------*/
+
+section.sec-one {
+  height: 450px;
+}
+
+/* -------- slider --------*/
+
+section.sec-one div.carousel div.carousel-indicators {
+  height: 100px;
+}
+
+section.sec-one div.carousel div.carousel-inner img {
+  height: 350px;
+}
+
+/* -------- section three --------*/
+
+img.logo {
+  width: 75px;
+  height: 75px;
+}
+
+section.sec-two h2{
+  font-size: 27px;
+}
+
+section.sec-two p,
+section.sec-three p{
+  font-size: 16px;
+}
+
+section.sec-three h3{
+  font-size: 25px;
+}
+section.sec-three .div-four
+{
+  padding: 7px !important;
+  margin: 7px !important;
+}
+
+section.sec-three .div-four ul{
+  font-size: 14px;
+}
+
+
+section.sec-four div{
+  font-size: 14px;
+}
+ }
+
+@media (min-width: 1200px) { 
+  /* -------- section one --------*/
+
+section.sec-one {
+  height: 600px;
+}
+
+/* -------- slider --------*/
+
+section.sec-one div.carousel div.carousel-indicators {
+  height: 150px;
+}
+
+section.sec-one div.carousel div.carousel-inner img {
+  height: 450px;
+}
+
+/* -------- section three --------*/
+
+img.logo {
+  width: 80px;
+  height: 80px;
+}
+
+section.sec-two h2{
+  font-size: 32px;
+}
+
+section.sec-two p,
+section.sec-three p{
+  font-size: 18px;
+}
+
+section.sec-three h3{
+  font-size: 27px;
+}
+section.sec-three .div-four
+{
+  padding-block: 15px !important;
+  padding-inline: 20px !important;
+}
+section.sec-three .div-four button.btn,
+section.sec-three .div-four div
+{
+  padding-block: 15px !important;
+}
+
+section.sec-three .div-four ul{
+  font-size: 17px;
+}
+
+
+section.sec-four div{
+  font-size: 17px;
+}
+ }
+
+@media (min-width: 1400px) { 
+
+ }
+
