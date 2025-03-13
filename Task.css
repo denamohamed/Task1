@@ -98,25 +98,3 @@ section.sec-three div.div-four ul li {
   align-items: center;
   gap: 7px;
 }
-
-/* -------- Media Queries --------*/
-
-@media (min-width: 576px) { 
- }
-
-@media (min-width: 768px) { 
-
- }
-
-@media (min-width: 992px) { 
-
- }
-
-@media (min-width: 1200px) { 
-
- }
-
-@media (min-width: 1400px) { 
-
- }
-
